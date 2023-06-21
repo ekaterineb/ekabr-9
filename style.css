@@ -1,0 +1,119 @@
+body{
+    background-color: #795799;
+}
+.heading-logo{
+    max-width: 1000px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h2{
+    color: #ffffff;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+.grid-rows{
+    background-color: #ffffff;
+    background: #795799;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #795799;
+    font-size: 20px;
+}
+.box1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.box2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.box3{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.box4{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.box5{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.box6{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.box7{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.box8{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.box9{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.box10{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.box11{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+.box12{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+.box13{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+
+
